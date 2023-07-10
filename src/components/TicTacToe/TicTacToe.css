@@ -1,0 +1,29 @@
+.playground {
+  max-width: 500px;
+  height: 500px;
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+.cell {
+  width: 34%;
+  height: 166px;
+  border: 2px solid #000;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.won {
+  background: green;
+}
